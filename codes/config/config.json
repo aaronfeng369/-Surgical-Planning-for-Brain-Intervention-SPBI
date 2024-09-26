@@ -1,0 +1,171 @@
+{
+    "plan": {
+        "entry_color_2d": [
+            0,
+            255,
+            0
+        ],
+        "entry_radius_2d": 8,
+        "entry_color_3d": [
+            0,
+            1,
+            0
+        ],
+        "entry_radius_3d": 3,
+        "entry_opacity_3d": 1,
+        "target_color_2d": [
+            255,
+            0,
+            0
+        ],
+        "target_radius_2d": 8,
+        "target_color_3d": [
+            1,
+            0,
+            0
+        ],
+        "target_radius_3d": 3,
+        "target_opacity_3d": 1,
+        "path_width_2d": 1,
+        "path_color_3d": [
+            0,
+            1,
+            0
+        ],
+        "path_width_3d": 7,
+        "path_opacity_3d": 1,
+        "path_directory": "D:/Code/test_data/2024-08-04"
+    },
+    "catheter": {
+        "box_color_2d": [
+            0,
+            255,
+            255
+        ],
+        "box_width_2d": 1,
+        "box_color_3d": [
+            0,
+            1,
+            1
+        ],
+        "box_width_3d": 1,
+        "box_opacity_3d": 0.5,
+        "line_color_2d": [
+            255,
+            255,
+            0
+        ],
+        "line_width_2d": 1,
+        "line_color_3d": [
+            1,
+            1,
+            0
+        ],
+        "line_width_3d": 1,
+        "line_opacity_3d": 0.5,
+        "nearest_point_color_2d": [
+            255,
+            128,
+            0
+        ],
+        "nearest_point_radius_2d": 8,
+        "nearest_point_color_3d": [
+            1,
+            0.5,
+            0
+        ],
+        "nearest_point_radius_3d": 3,
+        "nearest_point_opacity_3d": 0.5
+    },
+    "measure": {
+        "line_color_2d": [
+            0,
+            255,
+            0
+        ],
+        "line_width_2d": 1,
+        "line_color_3d": [
+            0,
+            1,
+            0
+        ],
+        "line_width_3d": 1,
+        "line_opacity_3d": 0.5,
+        "angle_color_2d": [
+            0,
+            0,
+            255
+        ],
+        "angle_width_2d": 1,
+        "angle_color_3d": [
+            0,
+            0,
+            1
+        ],
+        "angle_width_3d": 1,
+        "angle_opacity_3d": 0.5
+    },
+    "zframe": {
+        "image_directory": "D:/Code/test_data/2024-08-04",
+        "mat_directory": "zframe",
+        "path_directory": "D:/Code/MRI_SN_qt_v2"
+    },
+    "needle_recog": {
+        "needle_tip_color_2d": [
+            0,
+            255,
+            0
+        ],
+        "box_color_2d": [
+            0,
+            255,
+            255
+        ],
+        "box_width_2d": 1
+    },
+    "evaluation": {
+        "needle_tip_color_2d": [
+            0,
+            255,
+            255
+        ],
+        "needle_tip_radius_2d": 8,
+        "needle_tip_color_3d": [
+            0,
+            1,
+            1
+        ],
+        "needle_tip_radius_3d": 3,
+        "needle_tip_opacity_3d": 0.5
+    },
+    "fusion": {
+        "image_directory": "D:/Code/MRI_SN_qt_v2/output"
+    },
+    "brain_segment": {
+        "image_directory": "D:/Code/test_data/01_test_all/rigid-regis"
+    },
+    "vessel": {
+        "image_directory": "D:/Code/MRI_SN_qt_v2/data"
+    },
+    "button": {
+        "active": "background-color: #a3ff90;Color: #000000",
+        "normal": "background-color:#455364;Color: #dfe1e2",
+        "disabled": "background-color:#19232d;Color:#788d9c"
+    },
+    "sensor": {
+        "ip": "192.168.100.113",
+        "port": 502,
+        "force_k": -0.486,
+        "force_b": 751.05,
+        "sample_interval(ms)": 500
+    },
+    "main": {
+        "image_directory": "D:/Code/test_data/test_zframe/radial_3d_ng_tra_iso_F4.5_1001",
+        "realtime_directory": "D:/Code/test_data/test",
+        "auto_save_directory": "D:/Code/MRI_SN_qt_v2/auto_save",
+        "auto_save_plan_directory": "D:/Code/MRI_SN_qt_v2/auto_save\\AutoSave_2024-09-10_19-49-44\\plan",
+        "auto_save_registration_directory": "D:/Code/MRI_SN_qt_v2/auto_save\\AutoSave_2024-09-10_19-49-44\\registration",
+        "robot_ip": "192.168.1.106",
+        "robot_port": 30000
+    }
+}
